@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+
+  <style>
+    body {
+      background-color: darkgrey;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .wrap {
+      width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: #2b2b2b;
+      padding: 25px; /* padding added */
+      border-radius: 10px;
+    }
+
+    label {
+      font-size: 18px; /* label font size changed */
+      display: block;
+      text-align: left;
+      margin-top: 12px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 18px;
+      padding: 12px;
+      background-color: skyblue;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 18px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Student Registration</h1>
+
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name">
+
+      <label>Student no</label>
+      <input type="text" placeholder="Enter your student number">
+
+      <label>Telephone no</label>
+      <input type="tel" placeholder="Enter your telephone number">
+
+      <label>Email address</label>
+      <input type="email" placeholder="Enter your email address">
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <a href="profile.html">← Back to My Profile</a>
+  </div>
+</body>
+</html>
